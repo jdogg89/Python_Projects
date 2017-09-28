@@ -1,6 +1,7 @@
 # Python_Projects
 The filepathsize.py python program(written with python3 syntax in mind) listed below, and in this Python_Projects folder will find the files of a specific linux(tested on Amazon Linux ec2 instance) or unix(tested on MacOS) mount and return the file path of the file plus its size. The following code below will be broken down, please refer to commented lines: 
 
+View file in raw format in order for formatting to appear correctly.
 
 # #!/usr/bin/python
 #Import necessary modules for program
