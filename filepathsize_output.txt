@@ -1,0 +1,3 @@
+
+~/Projects/Python_Projects $ python filepathsize.py /Users/tec751/Desktop/StuffonDesktop/GithubProjects/HTML_LEVEL_ONE
+{"/Users/tec751/Desktop/StuffonDesktop/GithubProjects/HTML_LEVEL_ONE/Basics.html": 335, "/Users/tec751/Desktop/StuffonDesktop/GithubProjects/HTML_LEVEL_ONE/django-logo-positive.png": 16735, "/Users/tec751/Desktop/StuffonDesktop/GithubProjects/HTML_LEVEL_ONE/newpage.html": 163, "/Users/tec751/Desktop/StuffonDesktop/GithubProjects/HTML_LEVEL_ONE/tables.html": 430, "/Users/tec751/Desktop/StuffonDesktop/GithubProjects/HTML_LEVEL_ONE/test.txt": 0}
