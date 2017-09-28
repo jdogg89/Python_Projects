@@ -3,7 +3,7 @@ The filepathsize.py python program(written with python3 syntax in mind) will fin
 
 Run this command to execute the program: "python filepathsize.py [mount point]", example: python filepathsize.py /tmp. 
 
-The output of the program can be viewed in filepathsize_output.txt within the Projec
+The output of the program can be viewed in filepathsize_output.txt within the Python_Project folder.
  
 # Scaling to Production
 While this python program can be executed locally in an SSH session, this does not address how this could be implemented in a production environment with developers needing to run this program. Depending on the implemented monitoring solution, a high disk utilization alert could trigger the filepathsize.py program to be executed and the output of the program be stored in a publically accessible (only on the internal network for developers and support staff) html page. With this solution, whenever disk space becomes an issue the high disk usage files can quickly be identified and removed based on necessity.
