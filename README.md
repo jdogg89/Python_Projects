@@ -9,6 +9,8 @@ While this python program can be executed locally in an SSH session, this does n
 View file in raw format in order for formatting to appear correctly.
 
 # Working Code
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #!/usr/bin/python
 #Import necessary modules for program
 import os
@@ -34,4 +36,5 @@ for root, directories, filenames in os.walk(mount):
         #Print (data)
         #Converting output of dictionary to json and outputting this to the terminal
         j = json.dumps(data)
-        print (j)
+print (j)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
