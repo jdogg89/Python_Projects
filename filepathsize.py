@@ -23,4 +23,4 @@ for root, directories, filenames in os.walk(mount):
         #Print (data)
         #Converting output of dictionary to json and outputting this to the terminal
         j = json.dumps(data)
-        print (j)
+print (j)
