@@ -8,6 +8,8 @@ The output of the program can be viewed in filepathsize_output.txt within the Py
 # Scaling to Production
 Depending on the implemented monitoring solution, a high disk utilization alert could trigger the filepathsize.py program to be executed and the output of the program be stored in a publically accessible (only on the internal network for developers and support staff) html page. With this solution, whenever disk space becomes an issue the high disk usage files can quickly be identified and removed based on necessity.
 
+A potential solution for promoting the Python program from an initial development environment would be through Chef. The code could be placed into version control and upon updates to a git repo, Chef server could automatically pick up updates via a github webhook and curl command calling a Jenkins job for chef server updates to role files. When the nodes (servers) communicate to chef server via heartbeat they can pickup the program upon inital bootstrap to Chef server and any subsequent updates. 
+
 
 
 # Working Code
